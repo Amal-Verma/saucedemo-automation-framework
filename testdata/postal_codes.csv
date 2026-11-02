@@ -1,0 +1,5 @@
+id,postal_code,partition,expected,known_defect
+TC-14a,1234,4 digits (below lower boundary),invalid,DEF-01
+TC-14b,12345,5 digits (lower boundary),valid,
+TC-14c,123456,6 digits (upper boundary),valid,
+TC-14d,12a45,non-numeric,invalid,DEF-01

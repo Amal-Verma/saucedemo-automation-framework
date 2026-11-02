@@ -1,0 +1,573 @@
+2026-11-01 23:43:48 | INFO  | test_fr11_navigate_to_checkout | START | tests/test_checkout.py::test_fr11_navigate_to_checkout
+2026-11-01 23:43:52 | INFO  | test_fr11_navigate_to_checkout | SETUP | Chrome started with WebDriver Manager
+2026-11-01 23:43:52 | INFO  | test_fr11_navigate_to_checkout | STEP | Open https://www.saucedemo.com/
+2026-11-01 23:43:52 | INFO  | test_fr11_navigate_to_checkout | STEP | Enter username (13 characters)
+2026-11-01 23:43:53 | INFO  | test_fr11_navigate_to_checkout | STEP | Enter password
+2026-11-01 23:43:53 | INFO  | test_fr11_navigate_to_checkout | STEP | Click Login and wait for the Products page
+2026-11-01 23:43:53 | INFO  | test_fr11_navigate_to_checkout | STEP | Add 'Sauce Labs Backpack' to the cart
+2026-11-01 23:43:53 | INFO  | test_fr11_navigate_to_checkout | STEP | Open the cart
+2026-11-01 23:43:53 | INFO  | test_fr11_navigate_to_checkout | STEP | Click Checkout
+2026-11-01 23:43:53 | INFO  | test_fr11_navigate_to_checkout | STEP | Verify the Checkout: Your Information page
+2026-11-01 23:43:53 | INFO  | test_fr11_navigate_to_checkout | STATUS | PASSED
+2026-11-01 23:43:53 | INFO  | test_fr12_first_name_mandatory | START | tests/test_checkout.py::test_fr12_first_name_mandatory
+2026-11-01 23:43:53 | INFO  | test_fr12_first_name_mandatory | SETUP | Chrome started with WebDriver Manager
+2026-11-01 23:43:53 | INFO  | test_fr12_first_name_mandatory | STEP | Open https://www.saucedemo.com/
+2026-11-01 23:43:54 | INFO  | test_fr12_first_name_mandatory | STEP | Enter username (13 characters)
+2026-11-01 23:43:54 | INFO  | test_fr12_first_name_mandatory | STEP | Enter password
+2026-11-01 23:43:54 | INFO  | test_fr12_first_name_mandatory | STEP | Click Login and wait for the Products page
+2026-11-01 23:43:54 | INFO  | test_fr12_first_name_mandatory | STEP | Add 'Sauce Labs Backpack' to the cart
+2026-11-01 23:43:54 | INFO  | test_fr12_first_name_mandatory | STEP | Open the cart
+2026-11-01 23:43:54 | INFO  | test_fr12_first_name_mandatory | STEP | Click Checkout
+2026-11-01 23:43:54 | INFO  | test_fr12_first_name_mandatory | STEP | Fill form: first='' last='Verma' postal='40001'
+2026-11-01 23:43:55 | INFO  | test_fr12_first_name_mandatory | STEP | Click Continue
+2026-11-01 23:43:59 | INFO  | test_fr12_first_name_mandatory | STEP | Verify error: 'Error: First Name is required'
+2026-11-01 23:43:59 | INFO  | test_fr12_first_name_mandatory | STATUS | PASSED
+2026-11-01 23:43:59 | INFO  | test_fr13_last_name_mandatory | START | tests/test_checkout.py::test_fr13_last_name_mandatory
+2026-11-01 23:43:59 | INFO  | test_fr13_last_name_mandatory | SETUP | Chrome started with WebDriver Manager
+2026-11-01 23:43:59 | INFO  | test_fr13_last_name_mandatory | STEP | Open https://www.saucedemo.com/
+2026-11-01 23:44:00 | INFO  | test_fr13_last_name_mandatory | STEP | Enter username (13 characters)
+2026-11-01 23:44:00 | INFO  | test_fr13_last_name_mandatory | STEP | Enter password
+2026-11-01 23:44:00 | INFO  | test_fr13_last_name_mandatory | STEP | Click Login and wait for the Products page
+2026-11-01 23:44:00 | INFO  | test_fr13_last_name_mandatory | STEP | Add 'Sauce Labs Backpack' to the cart
+2026-11-01 23:44:00 | INFO  | test_fr13_last_name_mandatory | STEP | Open the cart
+2026-11-01 23:44:00 | INFO  | test_fr13_last_name_mandatory | STEP | Click Checkout
+2026-11-01 23:44:00 | INFO  | test_fr13_last_name_mandatory | STEP | Fill form: first='Amal' last='' postal='40001'
+2026-11-01 23:44:01 | INFO  | test_fr13_last_name_mandatory | STEP | Click Continue
+2026-11-01 23:44:05 | INFO  | test_fr13_last_name_mandatory | STEP | Verify error: 'Error: Last Name is required'
+2026-11-01 23:44:05 | INFO  | test_fr13_last_name_mandatory | STATUS | PASSED
+2026-11-01 23:44:05 | INFO  | test_fr14_postal_code_boundary[TC-14a] | START | tests/test_checkout.py::test_fr14_postal_code_boundary[TC-14a]
+2026-11-01 23:44:05 | INFO  | test_fr14_postal_code_boundary[TC-14a] | SETUP | Chrome started with WebDriver Manager
+2026-11-01 23:44:05 | INFO  | test_fr14_postal_code_boundary[TC-14a] | STEP | Open https://www.saucedemo.com/
+2026-11-01 23:44:06 | INFO  | test_fr14_postal_code_boundary[TC-14a] | STEP | Enter username (13 characters)
+2026-11-01 23:44:06 | INFO  | test_fr14_postal_code_boundary[TC-14a] | STEP | Enter password
+2026-11-01 23:44:06 | INFO  | test_fr14_postal_code_boundary[TC-14a] | STEP | Click Login and wait for the Products page
+2026-11-01 23:44:06 | INFO  | test_fr14_postal_code_boundary[TC-14a] | STEP | Add 'Sauce Labs Backpack' to the cart
+2026-11-01 23:44:06 | INFO  | test_fr14_postal_code_boundary[TC-14a] | STEP | Open the cart
+2026-11-01 23:44:06 | INFO  | test_fr14_postal_code_boundary[TC-14a] | STEP | Click Checkout
+2026-11-01 23:44:06 | INFO  | test_fr14_postal_code_boundary[TC-14a] | STEP | Fill form: first='Amal' last='Verma' postal='1234'
+2026-11-01 23:44:06 | INFO  | test_fr14_postal_code_boundary[TC-14a] | STEP | Click Continue
+2026-11-01 23:44:07 | INFO  | test_fr14_postal_code_boundary[TC-14a] | STEP | Postal code '1234' (4 digits (below lower boundary)) gave: 'overview'
+2026-11-01 23:44:07 | INFO  | test_fr14_postal_code_boundary[TC-14a] | EVIDENCE | screenshot saved: reports/screenshots/test_fr14_postal_code_boundary_TC-14a__20261101_234407.png
+2026-11-01 23:44:07 | INFO  | test_fr14_postal_code_boundary[TC-14a] | STATUS | XFAIL | DEF-01: SauceDemo accepts any non-empty postal code (see docs/TestCases.md)
+2026-11-01 23:44:07 | INFO  | test_fr14_postal_code_boundary[TC-14b] | START | tests/test_checkout.py::test_fr14_postal_code_boundary[TC-14b]
+2026-11-01 23:44:07 | INFO  | test_fr14_postal_code_boundary[TC-14b] | SETUP | Chrome started with WebDriver Manager
+2026-11-01 23:44:07 | INFO  | test_fr14_postal_code_boundary[TC-14b] | STEP | Open https://www.saucedemo.com/
+2026-11-01 23:44:07 | INFO  | test_fr14_postal_code_boundary[TC-14b] | STEP | Enter username (13 characters)
+2026-11-01 23:44:07 | INFO  | test_fr14_postal_code_boundary[TC-14b] | STEP | Enter password
+2026-11-01 23:44:08 | INFO  | test_fr14_postal_code_boundary[TC-14b] | STEP | Click Login and wait for the Products page
+2026-11-01 23:44:08 | INFO  | test_fr14_postal_code_boundary[TC-14b] | STEP | Add 'Sauce Labs Backpack' to the cart
+2026-11-01 23:44:08 | INFO  | test_fr14_postal_code_boundary[TC-14b] | STEP | Open the cart
+2026-11-01 23:44:08 | INFO  | test_fr14_postal_code_boundary[TC-14b] | STEP | Click Checkout
+2026-11-01 23:44:08 | INFO  | test_fr14_postal_code_boundary[TC-14b] | STEP | Fill form: first='Amal' last='Verma' postal='12345'
+2026-11-01 23:44:08 | INFO  | test_fr14_postal_code_boundary[TC-14b] | STEP | Click Continue
+2026-11-01 23:44:08 | INFO  | test_fr14_postal_code_boundary[TC-14b] | STEP | Postal code '12345' (5 digits (lower boundary)) gave: 'overview'
+2026-11-01 23:44:08 | INFO  | test_fr14_postal_code_boundary[TC-14b] | STATUS | PASSED
+2026-11-01 23:44:08 | INFO  | test_fr14_postal_code_boundary[TC-14c] | START | tests/test_checkout.py::test_fr14_postal_code_boundary[TC-14c]
+2026-11-01 23:44:09 | INFO  | test_fr14_postal_code_boundary[TC-14c] | SETUP | Chrome started with WebDriver Manager
+2026-11-01 23:44:09 | INFO  | test_fr14_postal_code_boundary[TC-14c] | STEP | Open https://www.saucedemo.com/
+2026-11-01 23:44:09 | INFO  | test_fr14_postal_code_boundary[TC-14c] | STEP | Enter username (13 characters)
+2026-11-01 23:44:09 | INFO  | test_fr14_postal_code_boundary[TC-14c] | STEP | Enter password
+2026-11-01 23:44:09 | INFO  | test_fr14_postal_code_boundary[TC-14c] | STEP | Click Login and wait for the Products page
+2026-11-01 23:44:09 | INFO  | test_fr14_postal_code_boundary[TC-14c] | STEP | Add 'Sauce Labs Backpack' to the cart
+2026-11-01 23:44:09 | INFO  | test_fr14_postal_code_boundary[TC-14c] | STEP | Open the cart
+2026-11-01 23:44:10 | INFO  | test_fr14_postal_code_boundary[TC-14c] | STEP | Click Checkout
+2026-11-01 23:44:10 | INFO  | test_fr14_postal_code_boundary[TC-14c] | STEP | Fill form: first='Amal' last='Verma' postal='123456'
+2026-11-01 23:44:10 | INFO  | test_fr14_postal_code_boundary[TC-14c] | STEP | Click Continue
+2026-11-01 23:44:10 | INFO  | test_fr14_postal_code_boundary[TC-14c] | STEP | Postal code '123456' (6 digits (upper boundary)) gave: 'overview'
+2026-11-01 23:44:10 | INFO  | test_fr14_postal_code_boundary[TC-14c] | STATUS | PASSED
+2026-11-01 23:44:10 | INFO  | test_fr14_postal_code_boundary[TC-14d] | START | tests/test_checkout.py::test_fr14_postal_code_boundary[TC-14d]
+2026-11-01 23:44:10 | INFO  | test_fr14_postal_code_boundary[TC-14d] | SETUP | Chrome started with WebDriver Manager
+2026-11-01 23:44:10 | INFO  | test_fr14_postal_code_boundary[TC-14d] | STEP | Open https://www.saucedemo.com/
+2026-11-01 23:44:11 | INFO  | test_fr14_postal_code_boundary[TC-14d] | STEP | Enter username (13 characters)
+2026-11-01 23:44:11 | INFO  | test_fr14_postal_code_boundary[TC-14d] | STEP | Enter password
+2026-11-01 23:44:11 | INFO  | test_fr14_postal_code_boundary[TC-14d] | STEP | Click Login and wait for the Products page
+2026-11-01 23:44:11 | INFO  | test_fr14_postal_code_boundary[TC-14d] | STEP | Add 'Sauce Labs Backpack' to the cart
+2026-11-01 23:44:11 | INFO  | test_fr14_postal_code_boundary[TC-14d] | STEP | Open the cart
+2026-11-01 23:44:11 | INFO  | test_fr14_postal_code_boundary[TC-14d] | STEP | Click Checkout
+2026-11-01 23:44:11 | INFO  | test_fr14_postal_code_boundary[TC-14d] | STEP | Fill form: first='Amal' last='Verma' postal='12a45'
+2026-11-01 23:44:12 | INFO  | test_fr14_postal_code_boundary[TC-14d] | STEP | Click Continue
+2026-11-01 23:44:12 | INFO  | test_fr14_postal_code_boundary[TC-14d] | STEP | Postal code '12a45' (non-numeric) gave: 'overview'
+2026-11-01 23:44:12 | INFO  | test_fr14_postal_code_boundary[TC-14d] | EVIDENCE | screenshot saved: reports/screenshots/test_fr14_postal_code_boundary_TC-14d__20261101_234412.png
+2026-11-01 23:44:12 | INFO  | test_fr14_postal_code_boundary[TC-14d] | STATUS | XFAIL | DEF-01: SauceDemo accepts any non-empty postal code (see docs/TestCases.md)
+2026-11-01 23:44:12 | INFO  | test_fr15_checkout_overview | START | tests/test_checkout.py::test_fr15_checkout_overview
+2026-11-01 23:44:12 | INFO  | test_fr15_checkout_overview | SETUP | Chrome started with WebDriver Manager
+2026-11-01 23:44:12 | INFO  | test_fr15_checkout_overview | STEP | Open https://www.saucedemo.com/
+2026-11-01 23:44:13 | INFO  | test_fr15_checkout_overview | STEP | Enter username (13 characters)
+2026-11-01 23:44:13 | INFO  | test_fr15_checkout_overview | STEP | Enter password
+2026-11-01 23:44:13 | INFO  | test_fr15_checkout_overview | STEP | Click Login and wait for the Products page
+2026-11-01 23:44:13 | INFO  | test_fr15_checkout_overview | STEP | Add 'Sauce Labs Backpack' to the cart
+2026-11-01 23:44:13 | INFO  | test_fr15_checkout_overview | STEP | Open the cart
+2026-11-01 23:44:13 | INFO  | test_fr15_checkout_overview | STEP | Click Checkout
+2026-11-01 23:44:13 | INFO  | test_fr15_checkout_overview | STEP | Fill form: first='Amal' last='Verma' postal='40001'
+2026-11-01 23:44:13 | INFO  | test_fr15_checkout_overview | STEP | Click Continue
+2026-11-01 23:44:14 | INFO  | test_fr15_checkout_overview | STEP | Verify the Overview page
+2026-11-01 23:44:14 | INFO  | test_fr15_checkout_overview | STATUS | PASSED
+2026-11-01 23:44:14 | INFO  | test_fr16_finish_order | START | tests/test_checkout.py::test_fr16_finish_order
+2026-11-01 23:44:14 | INFO  | test_fr16_finish_order | SETUP | Chrome started with WebDriver Manager
+2026-11-01 23:44:14 | INFO  | test_fr16_finish_order | STEP | Open https://www.saucedemo.com/
+2026-11-01 23:44:14 | INFO  | test_fr16_finish_order | STEP | Enter username (13 characters)
+2026-11-01 23:44:14 | INFO  | test_fr16_finish_order | STEP | Enter password
+2026-11-01 23:44:14 | INFO  | test_fr16_finish_order | STEP | Click Login and wait for the Products page
+2026-11-01 23:44:15 | INFO  | test_fr16_finish_order | STEP | Add 'Sauce Labs Backpack' to the cart
+2026-11-01 23:44:15 | INFO  | test_fr16_finish_order | STEP | Open the cart
+2026-11-01 23:44:15 | INFO  | test_fr16_finish_order | STEP | Click Checkout
+2026-11-01 23:44:15 | INFO  | test_fr16_finish_order | STEP | Fill form: first='Amal' last='Verma' postal='40001'
+2026-11-01 23:44:15 | INFO  | test_fr16_finish_order | STEP | Click Continue
+2026-11-01 23:44:15 | INFO  | test_fr16_finish_order | STEP | Click Finish
+2026-11-01 23:44:15 | INFO  | test_fr16_finish_order | STEP | Verify the success message
+2026-11-01 23:44:15 | INFO  | test_fr16_finish_order | STATUS | PASSED
+2026-11-01 23:44:15 | INFO  | test_fr01_login_success | START | tests/test_login.py::test_fr01_login_success
+2026-11-01 23:44:16 | INFO  | test_fr01_login_success | SETUP | Chrome started with WebDriver Manager
+2026-11-01 23:44:16 | INFO  | test_fr01_login_success | STEP | Open https://www.saucedemo.com/
+2026-11-01 23:44:16 | INFO  | test_fr01_login_success | STEP | Enter username (13 characters)
+2026-11-01 23:44:17 | INFO  | test_fr01_login_success | STEP | Enter password
+2026-11-01 23:44:17 | INFO  | test_fr01_login_success | STEP | Click Login and wait for the Products page
+2026-11-01 23:44:17 | INFO  | test_fr01_login_success | STEP | Verify the Products page is shown
+2026-11-01 23:44:17 | INFO  | test_fr01_login_success | STATUS | PASSED
+2026-11-01 23:44:17 | INFO  | test_fr02_to_fr04_login_failure[TC-02a] | START | tests/test_login.py::test_fr02_to_fr04_login_failure[TC-02a]
+2026-11-01 23:44:17 | INFO  | test_fr02_to_fr04_login_failure[TC-02a] | SETUP | Chrome started with WebDriver Manager
+2026-11-01 23:44:17 | INFO  | test_fr02_to_fr04_login_failure[TC-02a] | STEP | Open https://www.saucedemo.com/
+2026-11-01 23:44:18 | INFO  | test_fr02_to_fr04_login_failure[TC-02a] | STEP | Enter username (13 characters)
+2026-11-01 23:44:18 | INFO  | test_fr02_to_fr04_login_failure[TC-02a] | STEP | Enter password
+2026-11-01 23:44:18 | INFO  | test_fr02_to_fr04_login_failure[TC-02a] | STEP | Click Login
+2026-11-01 23:44:18 | INFO  | test_fr02_to_fr04_login_failure[TC-02a] | STEP | Verify error for: valid username, wrong password
+2026-11-01 23:44:18 | INFO  | test_fr02_to_fr04_login_failure[TC-02a] | STATUS | PASSED
+2026-11-01 23:44:18 | INFO  | test_fr02_to_fr04_login_failure[TC-02b] | START | tests/test_login.py::test_fr02_to_fr04_login_failure[TC-02b]
+2026-11-01 23:44:19 | INFO  | test_fr02_to_fr04_login_failure[TC-02b] | SETUP | Chrome started with WebDriver Manager
+2026-11-01 23:44:19 | INFO  | test_fr02_to_fr04_login_failure[TC-02b] | STEP | Open https://www.saucedemo.com/
+2026-11-01 23:44:19 | INFO  | test_fr02_to_fr04_login_failure[TC-02b] | STEP | Enter username (13 characters)
+2026-11-01 23:44:19 | INFO  | test_fr02_to_fr04_login_failure[TC-02b] | STEP | Enter password
+2026-11-01 23:44:19 | INFO  | test_fr02_to_fr04_login_failure[TC-02b] | STEP | Click Login
+2026-11-01 23:44:19 | INFO  | test_fr02_to_fr04_login_failure[TC-02b] | STEP | Verify error for: valid username, password in wrong case
+2026-11-01 23:44:20 | INFO  | test_fr02_to_fr04_login_failure[TC-02b] | STATUS | PASSED
+2026-11-01 23:44:20 | INFO  | test_fr02_to_fr04_login_failure[TC-03] | START | tests/test_login.py::test_fr02_to_fr04_login_failure[TC-03]
+2026-11-01 23:44:20 | INFO  | test_fr02_to_fr04_login_failure[TC-03] | SETUP | Chrome started with WebDriver Manager
+2026-11-01 23:44:20 | INFO  | test_fr02_to_fr04_login_failure[TC-03] | STEP | Open https://www.saucedemo.com/
+2026-11-01 23:44:20 | INFO  | test_fr02_to_fr04_login_failure[TC-03] | STEP | Enter username (0 characters)
+2026-11-01 23:44:20 | INFO  | test_fr02_to_fr04_login_failure[TC-03] | STEP | Enter password
+2026-11-01 23:44:20 | INFO  | test_fr02_to_fr04_login_failure[TC-03] | STEP | Click Login
+2026-11-01 23:44:21 | INFO  | test_fr02_to_fr04_login_failure[TC-03] | STEP | Verify error for: blank username, valid password
+2026-11-01 23:44:21 | INFO  | test_fr02_to_fr04_login_failure[TC-03] | STATUS | PASSED
+2026-11-01 23:44:21 | INFO  | test_fr02_to_fr04_login_failure[TC-04] | START | tests/test_login.py::test_fr02_to_fr04_login_failure[TC-04]
+2026-11-01 23:44:21 | INFO  | test_fr02_to_fr04_login_failure[TC-04] | SETUP | Chrome started with WebDriver Manager
+2026-11-01 23:44:21 | INFO  | test_fr02_to_fr04_login_failure[TC-04] | STEP | Open https://www.saucedemo.com/
+2026-11-01 23:44:21 | INFO  | test_fr02_to_fr04_login_failure[TC-04] | STEP | Enter username (13 characters)
+2026-11-01 23:44:21 | INFO  | test_fr02_to_fr04_login_failure[TC-04] | STEP | Leave password blank
+2026-11-01 23:44:21 | INFO  | test_fr02_to_fr04_login_failure[TC-04] | STEP | Click Login
+2026-11-01 23:44:22 | INFO  | test_fr02_to_fr04_login_failure[TC-04] | STEP | Verify error for: valid username, blank password
+2026-11-01 23:44:22 | INFO  | test_fr02_to_fr04_login_failure[TC-04] | STATUS | PASSED
+2026-11-01 23:44:22 | INFO  | test_fr05_username_length_boundary[TC-05a] | START | tests/test_login.py::test_fr05_username_length_boundary[TC-05a]
+2026-11-01 23:44:22 | INFO  | test_fr05_username_length_boundary[TC-05a] | SETUP | Chrome started with WebDriver Manager
+2026-11-01 23:44:22 | INFO  | test_fr05_username_length_boundary[TC-05a] | STEP | Open https://www.saucedemo.com/
+2026-11-01 23:44:22 | INFO  | test_fr05_username_length_boundary[TC-05a] | STEP | Enter username (30 characters)
+2026-11-01 23:44:22 | INFO  | test_fr05_username_length_boundary[TC-05a] | STEP | Enter password
+2026-11-01 23:44:23 | INFO  | test_fr05_username_length_boundary[TC-05a] | STEP | Click Login
+2026-11-01 23:44:23 | INFO  | test_fr05_username_length_boundary[TC-05a] | STEP | Verify login fails for a on boundary (30) username
+2026-11-01 23:44:23 | INFO  | test_fr05_username_length_boundary[TC-05a] | STATUS | PASSED
+2026-11-01 23:44:23 | INFO  | test_fr05_username_length_boundary[TC-05b] | START | tests/test_login.py::test_fr05_username_length_boundary[TC-05b]
+2026-11-01 23:44:23 | INFO  | test_fr05_username_length_boundary[TC-05b] | SETUP | Chrome started with WebDriver Manager
+2026-11-01 23:44:23 | INFO  | test_fr05_username_length_boundary[TC-05b] | STEP | Open https://www.saucedemo.com/
+2026-11-01 23:44:24 | INFO  | test_fr05_username_length_boundary[TC-05b] | STEP | Enter username (31 characters)
+2026-11-01 23:44:24 | INFO  | test_fr05_username_length_boundary[TC-05b] | STEP | Enter password
+2026-11-01 23:44:24 | INFO  | test_fr05_username_length_boundary[TC-05b] | STEP | Click Login
+2026-11-01 23:44:24 | INFO  | test_fr05_username_length_boundary[TC-05b] | STEP | Verify login fails for a just above boundary (31) username
+2026-11-01 23:44:24 | INFO  | test_fr05_username_length_boundary[TC-05b] | STATUS | PASSED
+2026-11-01 23:44:24 | INFO  | test_fr05_username_length_boundary[TC-05c] | START | tests/test_login.py::test_fr05_username_length_boundary[TC-05c]
+2026-11-01 23:44:24 | INFO  | test_fr05_username_length_boundary[TC-05c] | SETUP | Chrome started with WebDriver Manager
+2026-11-01 23:44:24 | INFO  | test_fr05_username_length_boundary[TC-05c] | STEP | Open https://www.saucedemo.com/
+2026-11-01 23:44:25 | INFO  | test_fr05_username_length_boundary[TC-05c] | STEP | Enter username (50 characters)
+2026-11-01 23:44:25 | INFO  | test_fr05_username_length_boundary[TC-05c] | STEP | Enter password
+2026-11-01 23:44:25 | INFO  | test_fr05_username_length_boundary[TC-05c] | STEP | Click Login
+2026-11-01 23:44:25 | INFO  | test_fr05_username_length_boundary[TC-05c] | STEP | Verify login fails for a well above boundary (50) username
+2026-11-01 23:44:25 | INFO  | test_fr05_username_length_boundary[TC-05c] | STATUS | PASSED
+2026-11-01 23:44:25 | INFO  | test_fr06_products_visible | START | tests/test_products_cart.py::test_fr06_products_visible
+2026-11-01 23:44:26 | INFO  | test_fr06_products_visible | SETUP | Chrome started with WebDriver Manager
+2026-11-01 23:44:26 | INFO  | test_fr06_products_visible | STEP | Open https://www.saucedemo.com/
+2026-11-01 23:44:26 | INFO  | test_fr06_products_visible | STEP | Enter username (13 characters)
+2026-11-01 23:44:26 | INFO  | test_fr06_products_visible | STEP | Enter password
+2026-11-01 23:44:26 | INFO  | test_fr06_products_visible | STEP | Click Login and wait for the Products page
+2026-11-01 23:44:27 | INFO  | test_fr06_products_visible | STEP | Verify product cards (6 found)
+2026-11-01 23:44:27 | INFO  | test_fr06_products_visible | STATUS | PASSED
+2026-11-01 23:44:27 | INFO  | test_fr07_add_to_cart | START | tests/test_products_cart.py::test_fr07_add_to_cart
+2026-11-01 23:44:27 | INFO  | test_fr07_add_to_cart | SETUP | Chrome started with WebDriver Manager
+2026-11-01 23:44:27 | INFO  | test_fr07_add_to_cart | STEP | Open https://www.saucedemo.com/
+2026-11-01 23:44:32 | INFO  | test_fr07_add_to_cart | STEP | Enter username (13 characters)
+2026-11-01 23:44:32 | INFO  | test_fr07_add_to_cart | STEP | Enter password
+2026-11-01 23:44:33 | INFO  | test_fr07_add_to_cart | STEP | Click Login and wait for the Products page
+2026-11-01 23:44:33 | INFO  | test_fr07_add_to_cart | STEP | Add 'Sauce Labs Backpack' to the cart
+2026-11-01 23:44:33 | INFO  | test_fr07_add_to_cart | STEP | Verify the badge and the button
+2026-11-01 23:44:33 | INFO  | test_fr07_add_to_cart | STATUS | PASSED
+2026-11-01 23:44:33 | INFO  | test_fr08_remove_from_cart | START | tests/test_products_cart.py::test_fr08_remove_from_cart
+2026-11-01 23:44:33 | INFO  | test_fr08_remove_from_cart | SETUP | Chrome started with WebDriver Manager
+2026-11-01 23:44:33 | INFO  | test_fr08_remove_from_cart | STEP | Open https://www.saucedemo.com/
+2026-11-01 23:44:33 | INFO  | test_fr08_remove_from_cart | STEP | Enter username (13 characters)
+2026-11-01 23:44:34 | INFO  | test_fr08_remove_from_cart | STEP | Enter password
+2026-11-01 23:44:34 | INFO  | test_fr08_remove_from_cart | STEP | Click Login and wait for the Products page
+2026-11-01 23:44:34 | INFO  | test_fr08_remove_from_cart | STEP | Add 'Sauce Labs Backpack' to the cart
+2026-11-01 23:44:34 | INFO  | test_fr08_remove_from_cart | STEP | Add 'Sauce Labs Bike Light' to the cart
+2026-11-01 23:44:34 | INFO  | test_fr08_remove_from_cart | STEP | Remove 'Sauce Labs Backpack' from the cart
+2026-11-01 23:44:34 | INFO  | test_fr08_remove_from_cart | STEP | Verify the badge and the button after removing
+2026-11-01 23:44:34 | INFO  | test_fr08_remove_from_cart | STATUS | PASSED
+2026-11-01 23:44:34 | INFO  | test_fr09_cart_details | START | tests/test_products_cart.py::test_fr09_cart_details
+2026-11-01 23:44:35 | INFO  | test_fr09_cart_details | SETUP | Chrome started with WebDriver Manager
+2026-11-01 23:44:35 | INFO  | test_fr09_cart_details | STEP | Open https://www.saucedemo.com/
+2026-11-01 23:44:35 | INFO  | test_fr09_cart_details | STEP | Enter username (13 characters)
+2026-11-01 23:44:35 | INFO  | test_fr09_cart_details | STEP | Enter password
+2026-11-01 23:44:35 | INFO  | test_fr09_cart_details | STEP | Click Login and wait for the Products page
+2026-11-01 23:44:35 | INFO  | test_fr09_cart_details | STEP | Add 'Sauce Labs Backpack' to the cart
+2026-11-01 23:44:36 | INFO  | test_fr09_cart_details | STEP | Add 'Sauce Labs Bike Light' to the cart
+2026-11-01 23:44:36 | INFO  | test_fr09_cart_details | STEP | Open the cart
+2026-11-01 23:44:36 | INFO  | test_fr09_cart_details | STEP | Verify cart contents: [{'name': 'Sauce Labs Backpack', 'price': '$29.99'}, {'name': 'Sauce Labs Bike Light', 'price': '$9.99'}]
+2026-11-01 23:44:36 | INFO  | test_fr09_cart_details | STATUS | PASSED
+2026-11-01 23:44:36 | INFO  | test_fr10_unauthorized_access_after_logout[inventory.html] | START | tests/test_products_cart.py::test_fr10_unauthorized_access_after_logout[inventory.html]
+2026-11-01 23:44:36 | INFO  | test_fr10_unauthorized_access_after_logout[inventory.html] | SETUP | Chrome started with WebDriver Manager
+2026-11-01 23:44:36 | INFO  | test_fr10_unauthorized_access_after_logout[inventory.html] | STEP | Open https://www.saucedemo.com/
+2026-11-01 23:44:37 | INFO  | test_fr10_unauthorized_access_after_logout[inventory.html] | STEP | Enter username (13 characters)
+2026-11-01 23:44:37 | INFO  | test_fr10_unauthorized_access_after_logout[inventory.html] | STEP | Enter password
+2026-11-01 23:44:37 | INFO  | test_fr10_unauthorized_access_after_logout[inventory.html] | STEP | Click Login and wait for the Products page
+2026-11-01 23:44:37 | INFO  | test_fr10_unauthorized_access_after_logout[inventory.html] | STEP | Log out through the side menu
+2026-11-01 23:44:38 | INFO  | test_fr10_unauthorized_access_after_logout[inventory.html] | STEP | Open https://www.saucedemo.com/inventory.html
+2026-11-01 23:44:38 | INFO  | test_fr10_unauthorized_access_after_logout[inventory.html] | STEP | Verify the user is sent back to the Login page
+2026-11-01 23:44:38 | INFO  | test_fr10_unauthorized_access_after_logout[inventory.html] | STATUS | PASSED
+2026-11-01 23:44:38 | INFO  | test_fr10_unauthorized_access_after_logout[cart.html] | START | tests/test_products_cart.py::test_fr10_unauthorized_access_after_logout[cart.html]
+2026-11-01 23:44:38 | INFO  | test_fr10_unauthorized_access_after_logout[cart.html] | SETUP | Chrome started with WebDriver Manager
+2026-11-01 23:44:38 | INFO  | test_fr10_unauthorized_access_after_logout[cart.html] | STEP | Open https://www.saucedemo.com/
+2026-11-01 23:44:38 | INFO  | test_fr10_unauthorized_access_after_logout[cart.html] | STEP | Enter username (13 characters)
+2026-11-01 23:44:38 | INFO  | test_fr10_unauthorized_access_after_logout[cart.html] | STEP | Enter password
+2026-11-01 23:44:39 | INFO  | test_fr10_unauthorized_access_after_logout[cart.html] | STEP | Click Login and wait for the Products page
+2026-11-01 23:44:39 | INFO  | test_fr10_unauthorized_access_after_logout[cart.html] | STEP | Log out through the side menu
+2026-11-01 23:44:39 | INFO  | test_fr10_unauthorized_access_after_logout[cart.html] | STEP | Open https://www.saucedemo.com/cart.html
+2026-11-01 23:44:40 | INFO  | test_fr10_unauthorized_access_after_logout[cart.html] | STEP | Verify the user is sent back to the Login page
+2026-11-01 23:44:40 | INFO  | test_fr10_unauthorized_access_after_logout[cart.html] | STATUS | PASSED
+2026-11-01 23:44:46 | INFO  | test_fr11_navigate_to_checkout | START | tests/test_checkout.py::test_fr11_navigate_to_checkout
+2026-11-01 23:44:46 | INFO  | test_fr11_navigate_to_checkout | SETUP | Chrome started with WebDriver Manager
+2026-11-01 23:44:46 | INFO  | test_fr11_navigate_to_checkout | STEP | Open https://www.saucedemo.com/
+2026-11-01 23:44:47 | INFO  | test_fr11_navigate_to_checkout | STEP | Enter username (13 characters)
+2026-11-01 23:44:47 | INFO  | test_fr11_navigate_to_checkout | STEP | Enter password
+2026-11-01 23:44:47 | INFO  | test_fr11_navigate_to_checkout | STEP | Click Login and wait for the Products page
+2026-11-01 23:44:47 | INFO  | test_fr11_navigate_to_checkout | STEP | Add 'Sauce Labs Backpack' to the cart
+2026-11-01 23:44:47 | INFO  | test_fr11_navigate_to_checkout | STEP | Open the cart
+2026-11-01 23:44:47 | INFO  | test_fr11_navigate_to_checkout | STEP | Click Checkout
+2026-11-01 23:44:48 | INFO  | test_fr11_navigate_to_checkout | STEP | Verify the Checkout: Your Information page
+2026-11-01 23:44:48 | INFO  | test_fr11_navigate_to_checkout | STATUS | PASSED
+2026-11-01 23:44:48 | INFO  | test_fr15_checkout_overview | START | tests/test_checkout.py::test_fr15_checkout_overview
+2026-11-01 23:44:48 | INFO  | test_fr15_checkout_overview | SETUP | Chrome started with WebDriver Manager
+2026-11-01 23:44:48 | INFO  | test_fr15_checkout_overview | STEP | Open https://www.saucedemo.com/
+2026-11-01 23:44:48 | INFO  | test_fr15_checkout_overview | STEP | Enter username (13 characters)
+2026-11-01 23:44:48 | INFO  | test_fr15_checkout_overview | STEP | Enter password
+2026-11-01 23:44:48 | INFO  | test_fr15_checkout_overview | STEP | Click Login and wait for the Products page
+2026-11-01 23:44:49 | INFO  | test_fr15_checkout_overview | STEP | Add 'Sauce Labs Backpack' to the cart
+2026-11-01 23:44:49 | INFO  | test_fr15_checkout_overview | STEP | Open the cart
+2026-11-01 23:44:49 | INFO  | test_fr15_checkout_overview | STEP | Click Checkout
+2026-11-01 23:44:49 | INFO  | test_fr15_checkout_overview | STEP | Fill form: first='Amal' last='Verma' postal='40001'
+2026-11-01 23:44:49 | INFO  | test_fr15_checkout_overview | STEP | Click Continue
+2026-11-01 23:44:49 | INFO  | test_fr15_checkout_overview | STEP | Verify the Overview page
+2026-11-01 23:44:49 | INFO  | test_fr15_checkout_overview | STATUS | PASSED
+2026-11-01 23:44:49 | INFO  | test_fr16_finish_order | START | tests/test_checkout.py::test_fr16_finish_order
+2026-11-01 23:44:50 | INFO  | test_fr16_finish_order | SETUP | Chrome started with WebDriver Manager
+2026-11-01 23:44:50 | INFO  | test_fr16_finish_order | STEP | Open https://www.saucedemo.com/
+2026-11-01 23:44:50 | INFO  | test_fr16_finish_order | STEP | Enter username (13 characters)
+2026-11-01 23:44:50 | INFO  | test_fr16_finish_order | STEP | Enter password
+2026-11-01 23:44:50 | INFO  | test_fr16_finish_order | STEP | Click Login and wait for the Products page
+2026-11-01 23:44:50 | INFO  | test_fr16_finish_order | STEP | Add 'Sauce Labs Backpack' to the cart
+2026-11-01 23:44:50 | INFO  | test_fr16_finish_order | STEP | Open the cart
+2026-11-01 23:44:51 | INFO  | test_fr16_finish_order | STEP | Click Checkout
+2026-11-01 23:44:51 | INFO  | test_fr16_finish_order | STEP | Fill form: first='Amal' last='Verma' postal='40001'
+2026-11-01 23:44:51 | INFO  | test_fr16_finish_order | STEP | Click Continue
+2026-11-01 23:44:51 | INFO  | test_fr16_finish_order | STEP | Click Finish
+2026-11-01 23:44:51 | INFO  | test_fr16_finish_order | STEP | Verify the success message
+2026-11-01 23:44:51 | INFO  | test_fr16_finish_order | STATUS | PASSED
+2026-11-01 23:44:51 | INFO  | test_fr01_login_success | START | tests/test_login.py::test_fr01_login_success
+2026-11-01 23:44:52 | INFO  | test_fr01_login_success | SETUP | Chrome started with WebDriver Manager
+2026-11-01 23:44:52 | INFO  | test_fr01_login_success | STEP | Open https://www.saucedemo.com/
+2026-11-01 23:44:52 | INFO  | test_fr01_login_success | STEP | Enter username (13 characters)
+2026-11-01 23:44:52 | INFO  | test_fr01_login_success | STEP | Enter password
+2026-11-01 23:44:52 | INFO  | test_fr01_login_success | STEP | Click Login and wait for the Products page
+2026-11-01 23:44:52 | INFO  | test_fr01_login_success | STEP | Verify the Products page is shown
+2026-11-01 23:44:52 | INFO  | test_fr01_login_success | STATUS | PASSED
+2026-11-01 23:44:52 | INFO  | test_fr06_products_visible | START | tests/test_products_cart.py::test_fr06_products_visible
+2026-11-01 23:44:53 | INFO  | test_fr06_products_visible | SETUP | Chrome started with WebDriver Manager
+2026-11-01 23:44:53 | INFO  | test_fr06_products_visible | STEP | Open https://www.saucedemo.com/
+2026-11-01 23:44:53 | INFO  | test_fr06_products_visible | STEP | Enter username (13 characters)
+2026-11-01 23:44:53 | INFO  | test_fr06_products_visible | STEP | Enter password
+2026-11-01 23:44:53 | INFO  | test_fr06_products_visible | STEP | Click Login and wait for the Products page
+2026-11-01 23:44:54 | INFO  | test_fr06_products_visible | STEP | Verify product cards (6 found)
+2026-11-01 23:44:54 | INFO  | test_fr06_products_visible | STATUS | PASSED
+2026-11-01 23:44:54 | INFO  | test_fr07_add_to_cart | START | tests/test_products_cart.py::test_fr07_add_to_cart
+2026-11-01 23:44:54 | INFO  | test_fr07_add_to_cart | SETUP | Chrome started with WebDriver Manager
+2026-11-01 23:44:54 | INFO  | test_fr07_add_to_cart | STEP | Open https://www.saucedemo.com/
+2026-11-01 23:44:54 | INFO  | test_fr07_add_to_cart | STEP | Enter username (13 characters)
+2026-11-01 23:44:54 | INFO  | test_fr07_add_to_cart | STEP | Enter password
+2026-11-01 23:44:54 | INFO  | test_fr07_add_to_cart | STEP | Click Login and wait for the Products page
+2026-11-01 23:44:55 | INFO  | test_fr07_add_to_cart | STEP | Add 'Sauce Labs Backpack' to the cart
+2026-11-01 23:44:55 | INFO  | test_fr07_add_to_cart | STEP | Verify the badge and the button
+2026-11-01 23:44:55 | INFO  | test_fr07_add_to_cart | STATUS | PASSED
+2026-11-01 23:45:05 | INFO  | test_fr14_postal_code_boundary[TC-14a] | START | tests/test_checkout.py::test_fr14_postal_code_boundary[TC-14a]
+2026-11-01 23:45:05 | INFO  | test_fr14_postal_code_boundary[TC-14a] | SETUP | Chrome started with WebDriver Manager
+2026-11-01 23:45:05 | INFO  | test_fr14_postal_code_boundary[TC-14a] | STEP | Open https://www.saucedemo.com/
+2026-11-01 23:45:06 | INFO  | test_fr14_postal_code_boundary[TC-14a] | STEP | Enter username (13 characters)
+2026-11-01 23:45:06 | INFO  | test_fr14_postal_code_boundary[TC-14a] | STEP | Enter password
+2026-11-01 23:45:06 | INFO  | test_fr14_postal_code_boundary[TC-14a] | STEP | Click Login and wait for the Products page
+2026-11-01 23:45:06 | INFO  | test_fr14_postal_code_boundary[TC-14a] | STEP | Add 'Sauce Labs Backpack' to the cart
+2026-11-01 23:45:06 | INFO  | test_fr14_postal_code_boundary[TC-14a] | STEP | Open the cart
+2026-11-01 23:45:06 | INFO  | test_fr14_postal_code_boundary[TC-14a] | STEP | Click Checkout
+2026-11-01 23:45:06 | INFO  | test_fr14_postal_code_boundary[TC-14a] | STEP | Fill form: first='Amal' last='Verma' postal='1234'
+2026-11-01 23:45:06 | INFO  | test_fr14_postal_code_boundary[TC-14a] | STEP | Click Continue
+2026-11-01 23:45:07 | INFO  | test_fr14_postal_code_boundary[TC-14a] | STEP | Postal code '1234' (4 digits (below lower boundary)) gave: 'overview'
+2026-11-01 23:45:07 | INFO  | test_fr14_postal_code_boundary[TC-14a] | EVIDENCE | screenshot saved: reports/screenshots/test_fr14_postal_code_boundary_TC-14a__20261101_234507.png
+2026-11-01 23:45:07 | ERROR | test_fr14_postal_code_boundary[TC-14a] | STATUS | FAILED | call: tests/test_checkout.py:72: AssertionError
+2026-11-01 23:45:15 | INFO  | test_fr14_postal_code_boundary[TC-14a] | START | tests/test_checkout.py::test_fr14_postal_code_boundary[TC-14a]
+2026-11-01 23:45:15 | INFO  | test_fr14_postal_code_boundary[TC-14a] | SETUP | Chrome started with WebDriver Manager
+2026-11-01 23:45:15 | INFO  | test_fr14_postal_code_boundary[TC-14a] | STEP | Open https://www.saucedemo.com/
+2026-11-01 23:45:15 | INFO  | test_fr14_postal_code_boundary[TC-14a] | STEP | Enter username (13 characters)
+2026-11-01 23:45:16 | INFO  | test_fr14_postal_code_boundary[TC-14a] | STEP | Enter password
+2026-11-01 23:45:16 | INFO  | test_fr14_postal_code_boundary[TC-14a] | STEP | Click Login and wait for the Products page
+2026-11-01 23:45:16 | INFO  | test_fr14_postal_code_boundary[TC-14a] | STEP | Add 'Sauce Labs Backpack' to the cart
+2026-11-01 23:45:16 | INFO  | test_fr14_postal_code_boundary[TC-14a] | STEP | Open the cart
+2026-11-01 23:45:16 | INFO  | test_fr14_postal_code_boundary[TC-14a] | STEP | Click Checkout
+2026-11-01 23:45:16 | INFO  | test_fr14_postal_code_boundary[TC-14a] | STEP | Fill form: first='Amal' last='Verma' postal='1234'
+2026-11-01 23:45:16 | INFO  | test_fr14_postal_code_boundary[TC-14a] | STEP | Click Continue
+2026-11-01 23:45:16 | INFO  | test_fr14_postal_code_boundary[TC-14a] | STEP | Postal code '1234' (4 digits (below lower boundary)) gave: 'overview'
+2026-11-01 23:45:17 | INFO  | test_fr14_postal_code_boundary[TC-14a] | EVIDENCE | screenshot saved: reports/screenshots/test_fr14_postal_code_boundary_TC-14a__20261101_234516.png
+2026-11-01 23:45:17 | ERROR | test_fr14_postal_code_boundary[TC-14a] | STATUS | FAILED | call: AssertionError: invalid postal code was accepted
+2026-11-01 23:54:04 | INFO  | test_fr11_navigate_to_checkout | START | tests/test_checkout.py::test_fr11_navigate_to_checkout
+2026-11-01 23:54:04 | INFO  | test_fr11_navigate_to_checkout | SETUP | Chrome started with WebDriver Manager
+2026-11-01 23:54:04 | INFO  | test_fr11_navigate_to_checkout | STEP | Open https://www.saucedemo.com/
+2026-11-01 23:54:05 | INFO  | test_fr11_navigate_to_checkout | STEP | Enter username (13 characters)
+2026-11-01 23:54:05 | INFO  | test_fr11_navigate_to_checkout | STEP | Enter password
+2026-11-01 23:54:05 | INFO  | test_fr11_navigate_to_checkout | STEP | Click Login and wait for the Products page
+2026-11-01 23:54:05 | INFO  | test_fr11_navigate_to_checkout | STEP | Add 'Sauce Labs Backpack' to the cart
+2026-11-01 23:54:06 | INFO  | test_fr11_navigate_to_checkout | STEP | Open the cart
+2026-11-01 23:54:06 | INFO  | test_fr11_navigate_to_checkout | STEP | Click Checkout
+2026-11-01 23:54:06 | INFO  | test_fr11_navigate_to_checkout | STEP | Verify the Checkout: Your Information page
+2026-11-01 23:54:06 | INFO  | test_fr11_navigate_to_checkout | STATUS | PASSED
+2026-11-01 23:54:06 | INFO  | test_fr12_first_name_mandatory | START | tests/test_checkout.py::test_fr12_first_name_mandatory
+2026-11-01 23:54:06 | INFO  | test_fr12_first_name_mandatory | SETUP | Chrome started with WebDriver Manager
+2026-11-01 23:54:06 | INFO  | test_fr12_first_name_mandatory | STEP | Open https://www.saucedemo.com/
+2026-11-01 23:54:07 | INFO  | test_fr12_first_name_mandatory | STEP | Enter username (13 characters)
+2026-11-01 23:54:07 | INFO  | test_fr12_first_name_mandatory | STEP | Enter password
+2026-11-01 23:54:07 | INFO  | test_fr12_first_name_mandatory | STEP | Click Login and wait for the Products page
+2026-11-01 23:54:07 | INFO  | test_fr12_first_name_mandatory | STEP | Add 'Sauce Labs Backpack' to the cart
+2026-11-01 23:54:07 | INFO  | test_fr12_first_name_mandatory | STEP | Open the cart
+2026-11-01 23:54:07 | INFO  | test_fr12_first_name_mandatory | STEP | Click Checkout
+2026-11-01 23:54:07 | INFO  | test_fr12_first_name_mandatory | STEP | Fill form: first='' last='Verma' postal='40001'
+2026-11-01 23:54:08 | INFO  | test_fr12_first_name_mandatory | STEP | Click Continue
+2026-11-01 23:54:12 | INFO  | test_fr12_first_name_mandatory | STEP | Verify error: 'Error: First Name is required'
+2026-11-01 23:54:12 | INFO  | test_fr12_first_name_mandatory | STATUS | PASSED
+2026-11-01 23:54:12 | INFO  | test_fr13_last_name_mandatory | START | tests/test_checkout.py::test_fr13_last_name_mandatory
+2026-11-01 23:54:12 | INFO  | test_fr13_last_name_mandatory | SETUP | Chrome started with WebDriver Manager
+2026-11-01 23:54:12 | INFO  | test_fr13_last_name_mandatory | STEP | Open https://www.saucedemo.com/
+2026-11-01 23:54:13 | INFO  | test_fr13_last_name_mandatory | STEP | Enter username (13 characters)
+2026-11-01 23:54:13 | INFO  | test_fr13_last_name_mandatory | STEP | Enter password
+2026-11-01 23:54:13 | INFO  | test_fr13_last_name_mandatory | STEP | Click Login and wait for the Products page
+2026-11-01 23:54:13 | INFO  | test_fr13_last_name_mandatory | STEP | Add 'Sauce Labs Backpack' to the cart
+2026-11-01 23:54:13 | INFO  | test_fr13_last_name_mandatory | STEP | Open the cart
+2026-11-01 23:54:13 | INFO  | test_fr13_last_name_mandatory | STEP | Click Checkout
+2026-11-01 23:54:13 | INFO  | test_fr13_last_name_mandatory | STEP | Fill form: first='Amal' last='' postal='40001'
+2026-11-01 23:54:14 | INFO  | test_fr13_last_name_mandatory | STEP | Click Continue
+2026-11-01 23:54:18 | INFO  | test_fr13_last_name_mandatory | STEP | Verify error: 'Error: Last Name is required'
+2026-11-01 23:54:18 | INFO  | test_fr13_last_name_mandatory | STATUS | PASSED
+2026-11-01 23:54:18 | INFO  | test_fr14_postal_code_boundary[TC-14a] | START | tests/test_checkout.py::test_fr14_postal_code_boundary[TC-14a]
+2026-11-01 23:54:18 | INFO  | test_fr14_postal_code_boundary[TC-14a] | SETUP | Chrome started with WebDriver Manager
+2026-11-01 23:54:18 | INFO  | test_fr14_postal_code_boundary[TC-14a] | STEP | Open https://www.saucedemo.com/
+2026-11-01 23:54:19 | INFO  | test_fr14_postal_code_boundary[TC-14a] | STEP | Enter username (13 characters)
+2026-11-01 23:54:19 | INFO  | test_fr14_postal_code_boundary[TC-14a] | STEP | Enter password
+2026-11-01 23:54:19 | INFO  | test_fr14_postal_code_boundary[TC-14a] | STEP | Click Login and wait for the Products page
+2026-11-01 23:54:19 | INFO  | test_fr14_postal_code_boundary[TC-14a] | STEP | Add 'Sauce Labs Backpack' to the cart
+2026-11-01 23:54:19 | INFO  | test_fr14_postal_code_boundary[TC-14a] | STEP | Open the cart
+2026-11-01 23:54:19 | INFO  | test_fr14_postal_code_boundary[TC-14a] | STEP | Click Checkout
+2026-11-01 23:54:19 | INFO  | test_fr14_postal_code_boundary[TC-14a] | STEP | Fill form: first='Amal' last='Verma' postal='1234'
+2026-11-01 23:54:20 | INFO  | test_fr14_postal_code_boundary[TC-14a] | STEP | Click Continue
+2026-11-01 23:54:20 | INFO  | test_fr14_postal_code_boundary[TC-14a] | STEP | Postal code '1234' (4 digits (below lower boundary)) gave: 'overview'
+2026-11-01 23:54:20 | INFO  | test_fr14_postal_code_boundary[TC-14a] | EVIDENCE | screenshot saved: reports/screenshots/test_fr14_postal_code_boundary_TC-14a__20261101_235420.png
+2026-11-01 23:54:20 | INFO  | test_fr14_postal_code_boundary[TC-14a] | STATUS | XFAIL | DEF-01: SauceDemo accepts any non-empty postal code (see docs/TestCases.md)
+2026-11-01 23:54:20 | INFO  | test_fr14_postal_code_boundary[TC-14b] | START | tests/test_checkout.py::test_fr14_postal_code_boundary[TC-14b]
+2026-11-01 23:54:20 | INFO  | test_fr14_postal_code_boundary[TC-14b] | SETUP | Chrome started with WebDriver Manager
+2026-11-01 23:54:20 | INFO  | test_fr14_postal_code_boundary[TC-14b] | STEP | Open https://www.saucedemo.com/
+2026-11-01 23:54:21 | INFO  | test_fr14_postal_code_boundary[TC-14b] | STEP | Enter username (13 characters)
+2026-11-01 23:54:21 | INFO  | test_fr14_postal_code_boundary[TC-14b] | STEP | Enter password
+2026-11-01 23:54:21 | INFO  | test_fr14_postal_code_boundary[TC-14b] | STEP | Click Login and wait for the Products page
+2026-11-01 23:54:21 | INFO  | test_fr14_postal_code_boundary[TC-14b] | STEP | Add 'Sauce Labs Backpack' to the cart
+2026-11-01 23:54:21 | INFO  | test_fr14_postal_code_boundary[TC-14b] | STEP | Open the cart
+2026-11-01 23:54:21 | INFO  | test_fr14_postal_code_boundary[TC-14b] | STEP | Click Checkout
+2026-11-01 23:54:21 | INFO  | test_fr14_postal_code_boundary[TC-14b] | STEP | Fill form: first='Amal' last='Verma' postal='12345'
+2026-11-01 23:54:22 | INFO  | test_fr14_postal_code_boundary[TC-14b] | STEP | Click Continue
+2026-11-01 23:54:22 | INFO  | test_fr14_postal_code_boundary[TC-14b] | STEP | Postal code '12345' (5 digits (lower boundary)) gave: 'overview'
+2026-11-01 23:54:22 | INFO  | test_fr14_postal_code_boundary[TC-14b] | STATUS | PASSED
+2026-11-01 23:54:22 | INFO  | test_fr14_postal_code_boundary[TC-14c] | START | tests/test_checkout.py::test_fr14_postal_code_boundary[TC-14c]
+2026-11-01 23:54:22 | INFO  | test_fr14_postal_code_boundary[TC-14c] | SETUP | Chrome started with WebDriver Manager
+2026-11-01 23:54:22 | INFO  | test_fr14_postal_code_boundary[TC-14c] | STEP | Open https://www.saucedemo.com/
+2026-11-01 23:54:23 | INFO  | test_fr14_postal_code_boundary[TC-14c] | STEP | Enter username (13 characters)
+2026-11-01 23:54:23 | INFO  | test_fr14_postal_code_boundary[TC-14c] | STEP | Enter password
+2026-11-01 23:54:23 | INFO  | test_fr14_postal_code_boundary[TC-14c] | STEP | Click Login and wait for the Products page
+2026-11-01 23:54:23 | INFO  | test_fr14_postal_code_boundary[TC-14c] | STEP | Add 'Sauce Labs Backpack' to the cart
+2026-11-01 23:54:23 | INFO  | test_fr14_postal_code_boundary[TC-14c] | STEP | Open the cart
+2026-11-01 23:54:23 | INFO  | test_fr14_postal_code_boundary[TC-14c] | STEP | Click Checkout
+2026-11-01 23:54:23 | INFO  | test_fr14_postal_code_boundary[TC-14c] | STEP | Fill form: first='Amal' last='Verma' postal='123456'
+2026-11-01 23:54:24 | INFO  | test_fr14_postal_code_boundary[TC-14c] | STEP | Click Continue
+2026-11-01 23:54:24 | INFO  | test_fr14_postal_code_boundary[TC-14c] | STEP | Postal code '123456' (6 digits (upper boundary)) gave: 'overview'
+2026-11-01 23:54:24 | INFO  | test_fr14_postal_code_boundary[TC-14c] | STATUS | PASSED
+2026-11-01 23:54:24 | INFO  | test_fr14_postal_code_boundary[TC-14d] | START | tests/test_checkout.py::test_fr14_postal_code_boundary[TC-14d]
+2026-11-01 23:54:24 | INFO  | test_fr14_postal_code_boundary[TC-14d] | SETUP | Chrome started with WebDriver Manager
+2026-11-01 23:54:24 | INFO  | test_fr14_postal_code_boundary[TC-14d] | STEP | Open https://www.saucedemo.com/
+2026-11-01 23:54:24 | INFO  | test_fr14_postal_code_boundary[TC-14d] | STEP | Enter username (13 characters)
+2026-11-01 23:54:24 | INFO  | test_fr14_postal_code_boundary[TC-14d] | STEP | Enter password
+2026-11-01 23:54:25 | INFO  | test_fr14_postal_code_boundary[TC-14d] | STEP | Click Login and wait for the Products page
+2026-11-01 23:54:25 | INFO  | test_fr14_postal_code_boundary[TC-14d] | STEP | Add 'Sauce Labs Backpack' to the cart
+2026-11-01 23:54:25 | INFO  | test_fr14_postal_code_boundary[TC-14d] | STEP | Open the cart
+2026-11-01 23:54:25 | INFO  | test_fr14_postal_code_boundary[TC-14d] | STEP | Click Checkout
+2026-11-01 23:54:25 | INFO  | test_fr14_postal_code_boundary[TC-14d] | STEP | Fill form: first='Amal' last='Verma' postal='12a45'
+2026-11-01 23:54:25 | INFO  | test_fr14_postal_code_boundary[TC-14d] | STEP | Click Continue
+2026-11-01 23:54:25 | INFO  | test_fr14_postal_code_boundary[TC-14d] | STEP | Postal code '12a45' (non-numeric) gave: 'overview'
+2026-11-01 23:54:25 | INFO  | test_fr14_postal_code_boundary[TC-14d] | EVIDENCE | screenshot saved: reports/screenshots/test_fr14_postal_code_boundary_TC-14d__20261101_235425.png
+2026-11-01 23:54:25 | INFO  | test_fr14_postal_code_boundary[TC-14d] | STATUS | XFAIL | DEF-01: SauceDemo accepts any non-empty postal code (see docs/TestCases.md)
+2026-11-01 23:54:25 | INFO  | test_fr15_checkout_overview | START | tests/test_checkout.py::test_fr15_checkout_overview
+2026-11-01 23:54:26 | INFO  | test_fr15_checkout_overview | SETUP | Chrome started with WebDriver Manager
+2026-11-01 23:54:26 | INFO  | test_fr15_checkout_overview | STEP | Open https://www.saucedemo.com/
+2026-11-01 23:54:26 | INFO  | test_fr15_checkout_overview | STEP | Enter username (13 characters)
+2026-11-01 23:54:26 | INFO  | test_fr15_checkout_overview | STEP | Enter password
+2026-11-01 23:54:26 | INFO  | test_fr15_checkout_overview | STEP | Click Login and wait for the Products page
+2026-11-01 23:54:26 | INFO  | test_fr15_checkout_overview | STEP | Add 'Sauce Labs Backpack' to the cart
+2026-11-01 23:54:27 | INFO  | test_fr15_checkout_overview | STEP | Open the cart
+2026-11-01 23:54:27 | INFO  | test_fr15_checkout_overview | STEP | Click Checkout
+2026-11-01 23:54:27 | INFO  | test_fr15_checkout_overview | STEP | Fill form: first='Amal' last='Verma' postal='40001'
+2026-11-01 23:54:27 | INFO  | test_fr15_checkout_overview | STEP | Click Continue
+2026-11-01 23:54:27 | INFO  | test_fr15_checkout_overview | STEP | Verify the Overview page
+2026-11-01 23:54:27 | INFO  | test_fr15_checkout_overview | STATUS | PASSED
+2026-11-01 23:54:27 | INFO  | test_fr16_finish_order | START | tests/test_checkout.py::test_fr16_finish_order
+2026-11-01 23:54:28 | INFO  | test_fr16_finish_order | SETUP | Chrome started with WebDriver Manager
+2026-11-01 23:54:28 | INFO  | test_fr16_finish_order | STEP | Open https://www.saucedemo.com/
+2026-11-01 23:54:39 | INFO  | test_fr16_finish_order | STEP | Enter username (13 characters)
+2026-11-01 23:54:39 | INFO  | test_fr16_finish_order | STEP | Enter password
+2026-11-01 23:54:39 | INFO  | test_fr16_finish_order | STEP | Click Login and wait for the Products page
+2026-11-01 23:54:39 | INFO  | test_fr16_finish_order | STEP | Add 'Sauce Labs Backpack' to the cart
+2026-11-01 23:54:39 | INFO  | test_fr16_finish_order | STEP | Open the cart
+2026-11-01 23:54:39 | INFO  | test_fr16_finish_order | STEP | Click Checkout
+2026-11-01 23:54:40 | INFO  | test_fr16_finish_order | STEP | Fill form: first='Amal' last='Verma' postal='40001'
+2026-11-01 23:54:40 | INFO  | test_fr16_finish_order | STEP | Click Continue
+2026-11-01 23:54:40 | INFO  | test_fr16_finish_order | STEP | Click Finish
+2026-11-01 23:54:40 | INFO  | test_fr16_finish_order | STEP | Verify the success message
+2026-11-01 23:54:40 | INFO  | test_fr16_finish_order | STATUS | PASSED
+2026-11-01 23:54:40 | INFO  | test_fr01_login_success | START | tests/test_login.py::test_fr01_login_success
+2026-11-01 23:54:41 | INFO  | test_fr01_login_success | SETUP | Chrome started with WebDriver Manager
+2026-11-01 23:54:41 | INFO  | test_fr01_login_success | STEP | Open https://www.saucedemo.com/
+2026-11-01 23:54:41 | INFO  | test_fr01_login_success | STEP | Enter username (13 characters)
+2026-11-01 23:54:41 | INFO  | test_fr01_login_success | STEP | Enter password
+2026-11-01 23:54:41 | INFO  | test_fr01_login_success | STEP | Click Login and wait for the Products page
+2026-11-01 23:54:41 | INFO  | test_fr01_login_success | STEP | Verify the Products page is shown
+2026-11-01 23:54:41 | INFO  | test_fr01_login_success | STATUS | PASSED
+2026-11-01 23:54:41 | INFO  | test_fr02_to_fr04_login_failure[TC-02a] | START | tests/test_login.py::test_fr02_to_fr04_login_failure[TC-02a]
+2026-11-01 23:54:42 | INFO  | test_fr02_to_fr04_login_failure[TC-02a] | SETUP | Chrome started with WebDriver Manager
+2026-11-01 23:54:42 | INFO  | test_fr02_to_fr04_login_failure[TC-02a] | STEP | Open https://www.saucedemo.com/
+2026-11-01 23:54:42 | INFO  | test_fr02_to_fr04_login_failure[TC-02a] | STEP | Enter username (13 characters)
+2026-11-01 23:54:42 | INFO  | test_fr02_to_fr04_login_failure[TC-02a] | STEP | Enter password
+2026-11-01 23:54:42 | INFO  | test_fr02_to_fr04_login_failure[TC-02a] | STEP | Click Login
+2026-11-01 23:54:42 | INFO  | test_fr02_to_fr04_login_failure[TC-02a] | STEP | Verify error for: valid username, wrong password
+2026-11-01 23:54:42 | INFO  | test_fr02_to_fr04_login_failure[TC-02a] | STATUS | PASSED
+2026-11-01 23:54:42 | INFO  | test_fr02_to_fr04_login_failure[TC-02b] | START | tests/test_login.py::test_fr02_to_fr04_login_failure[TC-02b]
+2026-11-01 23:54:43 | INFO  | test_fr02_to_fr04_login_failure[TC-02b] | SETUP | Chrome started with WebDriver Manager
+2026-11-01 23:54:43 | INFO  | test_fr02_to_fr04_login_failure[TC-02b] | STEP | Open https://www.saucedemo.com/
+2026-11-01 23:54:43 | INFO  | test_fr02_to_fr04_login_failure[TC-02b] | STEP | Enter username (13 characters)
+2026-11-01 23:54:43 | INFO  | test_fr02_to_fr04_login_failure[TC-02b] | STEP | Enter password
+2026-11-01 23:54:43 | INFO  | test_fr02_to_fr04_login_failure[TC-02b] | STEP | Click Login
+2026-11-01 23:54:43 | INFO  | test_fr02_to_fr04_login_failure[TC-02b] | STEP | Verify error for: valid username, password in wrong case
+2026-11-01 23:54:43 | INFO  | test_fr02_to_fr04_login_failure[TC-02b] | STATUS | PASSED
+2026-11-01 23:54:43 | INFO  | test_fr02_to_fr04_login_failure[TC-03] | START | tests/test_login.py::test_fr02_to_fr04_login_failure[TC-03]
+2026-11-01 23:54:44 | INFO  | test_fr02_to_fr04_login_failure[TC-03] | SETUP | Chrome started with WebDriver Manager
+2026-11-01 23:54:44 | INFO  | test_fr02_to_fr04_login_failure[TC-03] | STEP | Open https://www.saucedemo.com/
+2026-11-01 23:54:44 | INFO  | test_fr02_to_fr04_login_failure[TC-03] | STEP | Enter username (0 characters)
+2026-11-01 23:54:44 | INFO  | test_fr02_to_fr04_login_failure[TC-03] | STEP | Enter password
+2026-11-01 23:54:44 | INFO  | test_fr02_to_fr04_login_failure[TC-03] | STEP | Click Login
+2026-11-01 23:54:44 | INFO  | test_fr02_to_fr04_login_failure[TC-03] | STEP | Verify error for: blank username, valid password
+2026-11-01 23:54:44 | INFO  | test_fr02_to_fr04_login_failure[TC-03] | STATUS | PASSED
+2026-11-01 23:54:44 | INFO  | test_fr02_to_fr04_login_failure[TC-04] | START | tests/test_login.py::test_fr02_to_fr04_login_failure[TC-04]
+2026-11-01 23:54:45 | INFO  | test_fr02_to_fr04_login_failure[TC-04] | SETUP | Chrome started with WebDriver Manager
+2026-11-01 23:54:45 | INFO  | test_fr02_to_fr04_login_failure[TC-04] | STEP | Open https://www.saucedemo.com/
+2026-11-01 23:54:45 | INFO  | test_fr02_to_fr04_login_failure[TC-04] | STEP | Enter username (13 characters)
+2026-11-01 23:54:45 | INFO  | test_fr02_to_fr04_login_failure[TC-04] | STEP | Leave password blank
+2026-11-01 23:54:45 | INFO  | test_fr02_to_fr04_login_failure[TC-04] | STEP | Click Login
+2026-11-01 23:54:46 | INFO  | test_fr02_to_fr04_login_failure[TC-04] | STEP | Verify error for: valid username, blank password
+2026-11-01 23:54:46 | INFO  | test_fr02_to_fr04_login_failure[TC-04] | STATUS | PASSED
+2026-11-01 23:54:46 | INFO  | test_fr05_username_length_boundary[TC-05a] | START | tests/test_login.py::test_fr05_username_length_boundary[TC-05a]
+2026-11-01 23:54:46 | INFO  | test_fr05_username_length_boundary[TC-05a] | SETUP | Chrome started with WebDriver Manager
+2026-11-01 23:54:46 | INFO  | test_fr05_username_length_boundary[TC-05a] | STEP | Open https://www.saucedemo.com/
+2026-11-01 23:54:47 | INFO  | test_fr05_username_length_boundary[TC-05a] | STEP | Enter username (30 characters)
+2026-11-01 23:54:47 | INFO  | test_fr05_username_length_boundary[TC-05a] | STEP | Enter password
+2026-11-01 23:54:47 | INFO  | test_fr05_username_length_boundary[TC-05a] | STEP | Click Login
+2026-11-01 23:54:47 | INFO  | test_fr05_username_length_boundary[TC-05a] | STEP | Verify login fails for a on boundary (30) username
+2026-11-01 23:54:47 | INFO  | test_fr05_username_length_boundary[TC-05a] | STATUS | PASSED
+2026-11-01 23:54:47 | INFO  | test_fr05_username_length_boundary[TC-05b] | START | tests/test_login.py::test_fr05_username_length_boundary[TC-05b]
+2026-11-01 23:54:47 | INFO  | test_fr05_username_length_boundary[TC-05b] | SETUP | Chrome started with WebDriver Manager
+2026-11-01 23:54:47 | INFO  | test_fr05_username_length_boundary[TC-05b] | STEP | Open https://www.saucedemo.com/
+2026-11-01 23:54:53 | INFO  | test_fr05_username_length_boundary[TC-05b] | STEP | Enter username (31 characters)
+2026-11-01 23:54:53 | INFO  | test_fr05_username_length_boundary[TC-05b] | STEP | Enter password
+2026-11-01 23:54:53 | INFO  | test_fr05_username_length_boundary[TC-05b] | STEP | Click Login
+2026-11-01 23:54:53 | INFO  | test_fr05_username_length_boundary[TC-05b] | STEP | Verify login fails for a just above boundary (31) username
+2026-11-01 23:54:53 | INFO  | test_fr05_username_length_boundary[TC-05b] | STATUS | PASSED
+2026-11-01 23:54:53 | INFO  | test_fr05_username_length_boundary[TC-05c] | START | tests/test_login.py::test_fr05_username_length_boundary[TC-05c]
+2026-11-01 23:54:54 | INFO  | test_fr05_username_length_boundary[TC-05c] | SETUP | Chrome started with WebDriver Manager
+2026-11-01 23:54:54 | INFO  | test_fr05_username_length_boundary[TC-05c] | STEP | Open https://www.saucedemo.com/
+2026-11-01 23:54:54 | INFO  | test_fr05_username_length_boundary[TC-05c] | STEP | Enter username (50 characters)
+2026-11-01 23:54:54 | INFO  | test_fr05_username_length_boundary[TC-05c] | STEP | Enter password
+2026-11-01 23:54:54 | INFO  | test_fr05_username_length_boundary[TC-05c] | STEP | Click Login
+2026-11-01 23:54:54 | INFO  | test_fr05_username_length_boundary[TC-05c] | STEP | Verify login fails for a well above boundary (50) username
+2026-11-01 23:54:54 | INFO  | test_fr05_username_length_boundary[TC-05c] | STATUS | PASSED
+2026-11-01 23:54:54 | INFO  | test_fr06_products_visible | START | tests/test_products_cart.py::test_fr06_products_visible
+2026-11-01 23:54:55 | INFO  | test_fr06_products_visible | SETUP | Chrome started with WebDriver Manager
+2026-11-01 23:54:55 | INFO  | test_fr06_products_visible | STEP | Open https://www.saucedemo.com/
+2026-11-01 23:54:55 | INFO  | test_fr06_products_visible | STEP | Enter username (13 characters)
+2026-11-01 23:54:55 | INFO  | test_fr06_products_visible | STEP | Enter password
+2026-11-01 23:54:55 | INFO  | test_fr06_products_visible | STEP | Click Login and wait for the Products page
+2026-11-01 23:54:56 | INFO  | test_fr06_products_visible | STEP | Verify product cards (6 found)
+2026-11-01 23:54:56 | INFO  | test_fr06_products_visible | STATUS | PASSED
+2026-11-01 23:54:56 | INFO  | test_fr07_add_to_cart | START | tests/test_products_cart.py::test_fr07_add_to_cart
+2026-11-01 23:54:56 | INFO  | test_fr07_add_to_cart | SETUP | Chrome started with WebDriver Manager
+2026-11-01 23:54:56 | INFO  | test_fr07_add_to_cart | STEP | Open https://www.saucedemo.com/
+2026-11-01 23:54:56 | INFO  | test_fr07_add_to_cart | STEP | Enter username (13 characters)
+2026-11-01 23:54:56 | INFO  | test_fr07_add_to_cart | STEP | Enter password
+2026-11-01 23:54:57 | INFO  | test_fr07_add_to_cart | STEP | Click Login and wait for the Products page
+2026-11-01 23:54:57 | INFO  | test_fr07_add_to_cart | STEP | Add 'Sauce Labs Backpack' to the cart
+2026-11-01 23:54:57 | INFO  | test_fr07_add_to_cart | STEP | Verify the badge and the button
+2026-11-01 23:54:57 | INFO  | test_fr07_add_to_cart | STATUS | PASSED
+2026-11-01 23:54:57 | INFO  | test_fr08_remove_from_cart | START | tests/test_products_cart.py::test_fr08_remove_from_cart
+2026-11-01 23:54:57 | INFO  | test_fr08_remove_from_cart | SETUP | Chrome started with WebDriver Manager
+2026-11-01 23:54:57 | INFO  | test_fr08_remove_from_cart | STEP | Open https://www.saucedemo.com/
+2026-11-01 23:54:58 | INFO  | test_fr08_remove_from_cart | STEP | Enter username (13 characters)
+2026-11-01 23:54:58 | INFO  | test_fr08_remove_from_cart | STEP | Enter password
+2026-11-01 23:54:58 | INFO  | test_fr08_remove_from_cart | STEP | Click Login and wait for the Products page
+2026-11-01 23:54:58 | INFO  | test_fr08_remove_from_cart | STEP | Add 'Sauce Labs Backpack' to the cart
+2026-11-01 23:54:58 | INFO  | test_fr08_remove_from_cart | STEP | Add 'Sauce Labs Bike Light' to the cart
+2026-11-01 23:54:58 | INFO  | test_fr08_remove_from_cart | STEP | Remove 'Sauce Labs Backpack' from the cart
+2026-11-01 23:54:58 | INFO  | test_fr08_remove_from_cart | STEP | Verify the badge and the button after removing
+2026-11-01 23:54:58 | INFO  | test_fr08_remove_from_cart | STATUS | PASSED
+2026-11-01 23:54:58 | INFO  | test_fr09_cart_details | START | tests/test_products_cart.py::test_fr09_cart_details
+2026-11-01 23:54:59 | INFO  | test_fr09_cart_details | SETUP | Chrome started with WebDriver Manager
+2026-11-01 23:54:59 | INFO  | test_fr09_cart_details | STEP | Open https://www.saucedemo.com/
+2026-11-01 23:54:59 | INFO  | test_fr09_cart_details | STEP | Enter username (13 characters)
+2026-11-01 23:54:59 | INFO  | test_fr09_cart_details | STEP | Enter password
+2026-11-01 23:54:59 | INFO  | test_fr09_cart_details | STEP | Click Login and wait for the Products page
+2026-11-01 23:55:00 | INFO  | test_fr09_cart_details | STEP | Add 'Sauce Labs Backpack' to the cart
+2026-11-01 23:55:00 | INFO  | test_fr09_cart_details | STEP | Add 'Sauce Labs Bike Light' to the cart
+2026-11-01 23:55:00 | INFO  | test_fr09_cart_details | STEP | Open the cart
+2026-11-01 23:55:00 | INFO  | test_fr09_cart_details | STEP | Verify cart contents: [{'name': 'Sauce Labs Backpack', 'price': '$29.99'}, {'name': 'Sauce Labs Bike Light', 'price': '$9.99'}]
+2026-11-01 23:55:00 | INFO  | test_fr09_cart_details | STATUS | PASSED
+2026-11-01 23:55:00 | INFO  | test_fr10_unauthorized_access_after_logout[inventory.html] | START | tests/test_products_cart.py::test_fr10_unauthorized_access_after_logout[inventory.html]
+2026-11-01 23:55:00 | INFO  | test_fr10_unauthorized_access_after_logout[inventory.html] | SETUP | Chrome started with WebDriver Manager
+2026-11-01 23:55:00 | INFO  | test_fr10_unauthorized_access_after_logout[inventory.html] | STEP | Open https://www.saucedemo.com/
+2026-11-01 23:55:01 | INFO  | test_fr10_unauthorized_access_after_logout[inventory.html] | STEP | Enter username (13 characters)
+2026-11-01 23:55:01 | INFO  | test_fr10_unauthorized_access_after_logout[inventory.html] | STEP | Enter password
+2026-11-01 23:55:01 | INFO  | test_fr10_unauthorized_access_after_logout[inventory.html] | STEP | Click Login and wait for the Products page
+2026-11-01 23:55:01 | INFO  | test_fr10_unauthorized_access_after_logout[inventory.html] | STEP | Log out through the side menu
+2026-11-01 23:55:02 | INFO  | test_fr10_unauthorized_access_after_logout[inventory.html] | STEP | Open https://www.saucedemo.com/inventory.html
+2026-11-01 23:55:02 | INFO  | test_fr10_unauthorized_access_after_logout[inventory.html] | STEP | Verify the user is sent back to the Login page
+2026-11-01 23:55:02 | INFO  | test_fr10_unauthorized_access_after_logout[inventory.html] | STATUS | PASSED
+2026-11-01 23:55:02 | INFO  | test_fr10_unauthorized_access_after_logout[cart.html] | START | tests/test_products_cart.py::test_fr10_unauthorized_access_after_logout[cart.html]
+2026-11-01 23:55:03 | INFO  | test_fr10_unauthorized_access_after_logout[cart.html] | SETUP | Chrome started with WebDriver Manager
+2026-11-01 23:55:03 | INFO  | test_fr10_unauthorized_access_after_logout[cart.html] | STEP | Open https://www.saucedemo.com/
+2026-11-01 23:55:03 | INFO  | test_fr10_unauthorized_access_after_logout[cart.html] | STEP | Enter username (13 characters)
+2026-11-01 23:55:03 | INFO  | test_fr10_unauthorized_access_after_logout[cart.html] | STEP | Enter password
+2026-11-01 23:55:03 | INFO  | test_fr10_unauthorized_access_after_logout[cart.html] | STEP | Click Login and wait for the Products page
+2026-11-01 23:55:03 | INFO  | test_fr10_unauthorized_access_after_logout[cart.html] | STEP | Log out through the side menu
+2026-11-01 23:55:04 | INFO  | test_fr10_unauthorized_access_after_logout[cart.html] | STEP | Open https://www.saucedemo.com/cart.html
+2026-11-01 23:55:04 | INFO  | test_fr10_unauthorized_access_after_logout[cart.html] | STEP | Verify the user is sent back to the Login page
+2026-11-01 23:55:04 | INFO  | test_fr10_unauthorized_access_after_logout[cart.html] | STATUS | PASSED

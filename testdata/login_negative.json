@@ -1,0 +1,6 @@
+[
+  {"id": "TC-02a", "req": "FR-02", "case": "valid username, wrong password", "username": "standard_user", "password": "wrong_password", "error": "Epic sadface: Username and password do not match any user in this service"},
+  {"id": "TC-02b", "req": "FR-02", "case": "valid username, password in wrong case", "username": "standard_user", "password": "SECRET_SAUCE", "error": "Epic sadface: Username and password do not match any user in this service"},
+  {"id": "TC-03", "req": "FR-03", "case": "blank username, valid password", "username": "", "password": "secret_sauce", "error": "Epic sadface: Username is required"},
+  {"id": "TC-04", "req": "FR-04", "case": "valid username, blank password", "username": "standard_user", "password": "", "error": "Epic sadface: Password is required"}
+]

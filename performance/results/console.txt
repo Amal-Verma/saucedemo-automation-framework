@@ -1,0 +1,9 @@
+Creating summariser <summary>
+Created the tree successfully using jmx/saucedemo_weekend_lab.jmx
+Starting standalone test @ 2026 Nov 1 23:48:05 IST (1793557085247)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +      1 in 00:03:00 =    0.0/s Avg:     0 Min:     0 Max:     0 Err:     0 (0.00%) Active: 20 Started: 20 Finished: 0
+summary +     19 in 00:00:03 =    6.9/s Avg:  3445 Min:     0 Max:  6906 Err:     0 (0.00%) Active: 0 Started: 20 Finished: 20
+summary =     20 in 00:03:03 =    0.1/s Avg:  3272 Min:     0 Max:  6906 Err:     0 (0.00%)
+Tidying up ...    @ 2026 Nov 1 23:51:07 IST (1793557267950)
+... end of run

@@ -1,0 +1,5 @@
+[
+  {"id": "TC-05a", "length": 30, "partition": "on boundary (30)", "note": "length allowed, but no registered user has it"},
+  {"id": "TC-05b", "length": 31, "partition": "just above boundary (31)", "note": "over the limit: must fail"},
+  {"id": "TC-05c", "length": 50, "partition": "well above boundary (50)", "note": "over the limit: must fail"}
+]
